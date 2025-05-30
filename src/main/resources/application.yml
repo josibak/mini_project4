@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:h2:file:~/librarytestdb
+    url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
     username: sa
-    password: 1234
+    password:
 
   jpa:
     hibernate:
@@ -19,4 +19,4 @@ spring:
       path: /h2-console   # ?? URL (http://localhost:8080/h2-console)
 
 server:
-  port: 8081
+  port: 8081  # ?? ??, ?? ? ?? ??

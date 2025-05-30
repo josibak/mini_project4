@@ -30,9 +30,4 @@ public class Book {
     // 추후 User와 연결 시
     // @ManyToOne
     // private User user;
-    // Book.java
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private Users user;
-
 }

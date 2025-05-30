@@ -1,3 +1,5 @@
+package com.example.miniprj.service;
+
 import com.example.miniprj.dto.BookRequestDto;
 import com.example.miniprj.dto.BookResponseDto;
 import com.example.miniprj.entity.Book;
